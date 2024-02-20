@@ -17,7 +17,7 @@ const Home: React.FC = () => {
             Are you a successful gentleman?
           </h2>
           <p>
-            Don&apos;t hide it, let the whole world know who you are.
+            Don&apos;t conceal yourself, let everyone see you through.
           </p>
         </section>
       </article>
