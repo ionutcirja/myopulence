@@ -1,0 +1,31 @@
+.scrollBtn {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.scrollBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.25;
+}
+
+.scrollBtn svg {
+  transition: transform 0.25s var(--ease-out-quad);
+}
+
+.scrollBtn:hover svg {
+  transform: translateY(5px);
+}
+
+.scrollBtn:disabled:hover svg {
+  transform: translateY(0);
+}

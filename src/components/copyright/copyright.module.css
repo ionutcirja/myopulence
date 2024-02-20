@@ -1,0 +1,19 @@
+.copyright {
+  position: fixed;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--color-grey);
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.copyright p span {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .copyright p span {
+    display: unset;
+  }
+}

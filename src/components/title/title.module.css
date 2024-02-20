@@ -1,0 +1,24 @@
+.title {
+  position: fixed;
+  left: 50%;
+  top: 16px;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+  color: var(--color-dark-blue);
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 10;
+  transition: top 0.25s var(--ease-out-quad);
+}
+
+.title.hidden {
+  top: -20px;
+}
+
+@media (min-width: 1025px) {
+  .title {
+    top: 32px;
+  }
+}
