@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: 'My Opulence',
-  description: 'Are you a successful man? Don\'t hide it, let the whole world know who you are.',
-  keywords: 'opulence, success, successful, man, gentleman, club, rich, wealth, richness',
+  description: 'Are you a successful gentleman? Don\'t hide it, let the whole world know who you are.',
+  keywords: 'opulence, success, successful, man, gentleman, club, rich, richness, wealth, wealthy, wealthiness',
   creator: '07 happy days',
   authors: [{ name: 'Ionuț Cîrjă'}, { name: 'Andrei Cîrjă'} ],
 };
