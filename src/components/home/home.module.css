@@ -27,6 +27,7 @@
 
 .intro div:first-of-type {
   flex-grow: 1;
+  padding-bottom: 64px;
 }
 
 .intro div h2 {
