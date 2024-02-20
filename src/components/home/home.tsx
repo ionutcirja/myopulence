@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <article className={styles.article}>
         <section className={styles.intro}>
           <h2 className={souvenirFont.className}>
-            Are you a successful man?
+            Are you a successful gentleman?
           </h2>
           <p>
             Don&apos;t hide it, let the whole world know who you are.
